@@ -548,7 +548,7 @@ function Contact() {
             className="float-delayed mt-8 max-h-72 w-full max-w-md object-contain"
           />
           <div className="mt-8 grid gap-3 text-sm font-semibold text-slate-700 sm:grid-cols-2">
-            <div className="flex items-center gap-2 rounded-2xl bg-white/75 p-4"><Mail size={17} className="text-amber-600" /> hello@precisioned.global</div>
+            <div className="flex items-center gap-2 rounded-2xl bg-white/75 p-4"><Mail size={17} className="text-amber-600" /> support@gov2partner.com</div>
             <div className="flex items-center gap-2 rounded-2xl bg-white/75 p-4"><Phone size={17} className="text-amber-600" /> Global mentorship desk</div>
           </div>
         </div>
@@ -561,7 +561,7 @@ function Contact() {
           <Field label="Phone" name="phone" type="tel" autoComplete="tel" />
           <Field label="Message" name="message" multiline required />
           <Button type="submit" className="mt-2 w-full sm:w-auto">
-            Send inquiry <MessageSquareText size={18} />
+            Submit <MessageSquareText size={18} />
           </Button>
         </form>
       </div>
