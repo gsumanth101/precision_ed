@@ -11,7 +11,7 @@ function Contact() {
     email: '',
     phone: '',
     message: '',
-    siteName: 'gov2partner',
+    siteName: 'https://precisioned.gov2partner.com/',
   })
 
   const [loading, setLoading] = useState(false)
@@ -57,7 +57,7 @@ function Contact() {
         email: '',
         phone: '',
         message: '',
-        siteName: 'gov2partner',
+        siteName: 'https://precisioned.gov2partner.com/',
       })
     } catch (err) {
       console.error(err)
