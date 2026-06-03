@@ -54,7 +54,7 @@ function Hero() {
                 <Illustration type="hero" />
               </motion.div>
               <div className="mt-7 grid gap-3 sm:grid-cols-2">
-                {['Ivy League mentors', 'AI awareness labs'].map((item) => (
+                {['Elite Readiness', 'Future Mastery','Opportunity Access','Mentor Insight'].map((item) => (
                   <div key={item} className="rounded-2xl border border-amber-100/80 bg-white/78 p-4 text-sm font-semibold text-stone-700 shadow-sm">
                     <Check className="mb-2 text-amber-600" size={18} /> {item}
                   </div>
